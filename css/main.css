@@ -1,0 +1,83 @@
+.about {
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+    margin-bottom: 24px;
+}
+
+.avatar {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 40px ;
+    border-radius: 50%;
+    object-fit: cover; /*ทำเพื่อให้รูปสวยๆ*/
+    box-shadow: 10px 10px 0px darkkhaki ;
+}
+
+body {
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.button{
+    color: white;
+    background-color: black;
+    padding: 12px 24px;
+    text-decoration: none; /*underline*/
+}
+
+.container {
+    background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.7)),
+    url("https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRhdGElMjBhbmFseXN0fGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom ;
+    min-height: 100vh;
+    padding: 128px;
+}
+
+
+.contact {
+    margin-bottom: 48px;
+}
+
+.contact-item{
+    margin-bottom: 4px;
+}
+
+.contact-icon {
+    margin-right: 12px;
+    width: 16px;
+}
+
+.content-box {
+    max-width: 500px;
+}
+
+
+.job {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.name {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+
+/*for responsive design screen less than 768px*/
+@media screen and (max-width:768px) {
+    .container {
+        padding: 48px;
+    }
+    .name {
+       font-size: 36px;
+    }
+}
+
+
+
+
+
